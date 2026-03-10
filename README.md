@@ -24,4 +24,5 @@ It is built around these core product capabilities:
 - [engine](engine/README.md): Go service that contains core domain logic, data access, migrations, and API endpoints.
 - [bff](bff/README.md): Backend-for-Frontend layer (currently in early setup).
 - [auto-service](auto-service/README.md): Automation/service integration layer (currently in early setup).
+- [backend-commons](backend-commons/README.md): Go-lang backend commons layer (currently in early setup).
 - [webapp](webapp/README.md): Frontend web application (currently in early setup).
