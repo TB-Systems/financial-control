@@ -21,7 +21,7 @@ It is built around these core product capabilities:
 
 ## Repository Structure
 
-- `engine/`: Go service that contains core domain logic, data access, migrations, and API endpoints.
-- `bff/`: Backend-for-Frontend layer (currently in early setup).
-- `auto-service/`: Automation/service integration layer (currently in early setup).
-- `webapp/`: Frontend web application (currently in early setup).
+- [engine](engine/README.md): Go service that contains core domain logic, data access, migrations, and API endpoints.
+- [bff](bff/README.md): Backend-for-Frontend layer (currently in early setup).
+- [auto-service](auto-service/README.md): Automation/service integration layer (currently in early setup).
+- [webapp](webapp/README.md): Frontend web application (currently in early setup).
