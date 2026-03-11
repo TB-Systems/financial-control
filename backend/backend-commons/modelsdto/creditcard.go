@@ -1,0 +1,36 @@
+package modelsdto
+
+import (
+	"backend-commons/dtos"
+	"backend-commons/models"
+
+	"github.com/google/uuid"
+)
+
+func CreateCreditCardFromCreditCardRequest(request dtos.CreditCardRequest, userID uuid.UUID) models.CreateCreditCard {
+	return models.CreateCreditCard{
+		UserID:           userID,
+		Name:             request.Name,
+		FirstFourNumbers: request.FirstFourNumbers,
+		Limit:            request.Limit,
+		CloseDay:         request.CloseDay,
+		ExpireDay:        request.ExpireDay,
+		BackgroundColor:  request.BackgroundColor,
+		TextColor:        request.TextColor,
+	}
+}
+
+func CreditCardResponseFromCreditCard(model models.CreditCard) dtos.CreditCardResponse {
+	return dtos.CreditCardResponse{
+		ID:               model.ID,
+		Name:             model.Name,
+		FirstFourNumbers: model.FirstFourNumbers,
+		Limit:            model.Limit,
+		CloseDay:         model.CloseDay,
+		ExpireDay:        model.ExpireDay,
+		BackgroundColor:  model.BackgroundColor,
+		TextColor:        model.TextColor,
+		CreatedAt:        model.CreatedAt,
+		UpdatedAt:        model.UpdatedAt,
+	}
+}
