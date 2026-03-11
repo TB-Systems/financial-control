@@ -4,12 +4,12 @@ import (
 	"context"
 	"financialcontrol/internal/constants"
 	"financialcontrol/internal/dtos"
-	"financialcontrol/internal/errors"
 	"financialcontrol/internal/models"
 	"financialcontrol/internal/modelsdto"
 	"financialcontrol/internal/repositories"
 	"net/http"
 
+	"github.com/TB-Systems/go-commons/errors"
 	"github.com/google/uuid"
 )
 

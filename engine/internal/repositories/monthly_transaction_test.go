@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"financialcontrol/internal/commonsmodels"
+	"github.com/TB-Systems/go-commons/commonsmodels"
 	"financialcontrol/internal/models"
 	"financialcontrol/internal/store/pgstore"
-	"financialcontrol/internal/utils"
+	"github.com/TB-Systems/go-commons/utils"
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"

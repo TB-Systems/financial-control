@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"financialcontrol/internal/commonsmodels"
+	"github.com/TB-Systems/go-commons/commonsmodels"
 	"financialcontrol/internal/constants"
 	"financialcontrol/internal/dtos"
 	"financialcontrol/internal/models"

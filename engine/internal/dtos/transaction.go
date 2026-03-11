@@ -2,10 +2,11 @@ package dtos
 
 import (
 	"financialcontrol/internal/constants"
-	"financialcontrol/internal/errors"
 	"financialcontrol/internal/models"
-	"financialcontrol/internal/utils"
 	"time"
+
+	"github.com/TB-Systems/go-commons/errors"
+	"github.com/TB-Systems/go-commons/utils"
 
 	"github.com/google/uuid"
 )

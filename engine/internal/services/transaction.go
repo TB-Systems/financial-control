@@ -2,10 +2,8 @@ package services
 
 import (
 	"context"
-	"financialcontrol/internal/commonsmodels"
 	"financialcontrol/internal/constants"
 	"financialcontrol/internal/dtos"
-	"financialcontrol/internal/errors"
 	"financialcontrol/internal/models"
 	"financialcontrol/internal/modelsdto"
 	"financialcontrol/internal/repositories"
@@ -13,6 +11,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/TB-Systems/go-commons/commonsmodels"
+	"github.com/TB-Systems/go-commons/errors"
 	"github.com/google/uuid"
 )
 

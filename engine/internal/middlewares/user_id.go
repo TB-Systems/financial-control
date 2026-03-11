@@ -2,10 +2,10 @@ package middlewares
 
 import (
 	"financialcontrol/internal/constants"
-	"financialcontrol/internal/errors"
-	"financialcontrol/internal/utils"
 	"net/http"
 
+	"github.com/TB-Systems/go-commons/errors"
+	"github.com/TB-Systems/go-commons/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )

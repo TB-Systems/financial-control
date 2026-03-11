@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"financialcontrol/internal/commonsmodels"
+	"github.com/TB-Systems/go-commons/commonsmodels"
 	"financialcontrol/internal/constants"
 	"financialcontrol/internal/dtos"
-	apierrors "financialcontrol/internal/errors"
+	apierrors "github.com/TB-Systems/go-commons/errors"
 	"financialcontrol/internal/models"
 
 	"github.com/gin-gonic/gin"

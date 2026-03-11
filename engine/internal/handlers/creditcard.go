@@ -1,12 +1,12 @@
 package handlers
 
 import (
-	"financialcontrol/internal/commonsmodels"
 	"financialcontrol/internal/dtos"
 	"financialcontrol/internal/services"
-	"financialcontrol/internal/utils"
 	"net/http"
 
+	"github.com/TB-Systems/go-commons/commonsmodels"
+	"github.com/TB-Systems/go-commons/utils"
 	"github.com/gin-gonic/gin"
 )
 

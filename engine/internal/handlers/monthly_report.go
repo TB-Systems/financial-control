@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"financialcontrol/internal/services"
-	"financialcontrol/internal/utils"
 	"net/http"
 
+	"github.com/TB-Systems/go-commons/utils"
 	"github.com/gin-gonic/gin"
 )
 

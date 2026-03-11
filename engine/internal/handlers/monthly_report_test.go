@@ -9,7 +9,7 @@ import (
 
 	"financialcontrol/internal/constants"
 	"financialcontrol/internal/dtos"
-	apierrors "financialcontrol/internal/errors"
+	apierrors "github.com/TB-Systems/go-commons/errors"
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"

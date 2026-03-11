@@ -7,7 +7,7 @@ import (
 
 	"financialcontrol/internal/models"
 	"financialcontrol/internal/store/pgstore"
-	"financialcontrol/internal/utils"
+	"github.com/TB-Systems/go-commons/utils"
 
 	"github.com/google/uuid"
 )
